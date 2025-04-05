@@ -25,7 +25,7 @@ jobs:
 
     - name: Run stock analyzer
       run: |
-        python analyze_market.py
+        python StockMarketAnalyzer.py
     
     - name: Commit results
       run: |
