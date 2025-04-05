@@ -135,4 +135,4 @@ if __name__ == "__main__":
     analyzer = StockMarketAnalyzer(days=7)
     analyzer.fetch_data()
     trend_df = analyzer.analyze_trend()
-    analyzer.plot_trend(trend_df, save_path="market_trend.png")
+    analyzer.plot_trend(trend_df, save_path="daily_market_trend.png")
